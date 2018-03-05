@@ -80,4 +80,3 @@ TO_DO:
 
 ===========================================================================================
 Yes, I realize this is barely even Alpha quality code but it works and you can take it and run with it.
-No "keyboard-warrior" comments and Sorry... Please No Arduino questions or requests. duderu
