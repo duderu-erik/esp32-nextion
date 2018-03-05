@@ -24,8 +24,10 @@ This utilized the uart_async_rxtxtasks example that came with the esp-idf.
 --Built using the ESP-IDF v3.1-dev-304-gd8c80509-dirty 2nd stage bootloader  
 --Graphics used off the web and modified using GIMP. You can make fun of my graphics skills. Yes, I suck.  
 --Nextion editor v0.53 -- https://nextion.itead.cc/  
---Debug output is at "Info Level" and comes accross UART0 on pins GPIO1-TX and GPIO3-RX on the USB port of the DevkitC I'm using.  
---Compiled and run using MSYS on Windows... yea shut up, my main development environment is Linux. Currently set to COM13 for programming/debugging.  
+--Debug output is at "Info Level" and comes accross UART0 on pins GPIO1-TX and GPIO3-RX on the USB port of the DevkitC  
+   I'm using.  
+--Compiled and run using MSYS on Windows... yea shut up, my main development environment is Linux. Currently set to  
+   COM13 for programming/debugging.   
 
 
 -- AT the very least, you will need to configure your comport or tty device in 'make menuconfig'  
