@@ -45,19 +45,19 @@ READ THE DATA SHEETS!!! I'm not responsible for any magical smoke or any damage 
 
 FILES:
 ======
--README.md	- this file
--sdkconfig	- Do not Edit; Use 'make menuconfig'
--Makefile 	- change the project name to your liking
-----------main
-			|
-			--esp32-nextion.c = pretty much main.c
-			--esp32-nextion.h = would love to see someone run with this and create structures for the various Nextion commands, etc.
-			--component.mk	   = See expressif documentation at esp32.com. Do not need to touch for this demo.
+-README.md	- this file  
+-sdkconfig	- Do not Edit; Use 'make menuconfig'  
+-Makefile 	- change the project name to your liking  
+----------main   
+			|  
+			--esp32-nextion.c = pretty much main.c  
+			--esp32-nextion.h = create structures for the various Nextion commands, etc.  
+			--component.mk	   = See expressif documentation at esp32.com. Do not need to touch for this demo.  
 			
-----------nextion
-			|
-			--esp32-nextion35.HMI = source file for Nextion editor v0.53
-			--esp32-nextion35.tft = compiled file from Nextion editor v0.53
+----------nextion  
+			|  
+			--esp32-nextion35.HMI = source file for Nextion editor v0.53  
+			--esp32-nextion35.tft = compiled file from Nextion editor v0.53  
 			
 			
 			
