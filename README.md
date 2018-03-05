@@ -65,16 +65,16 @@ FILES:
 
 Stuff you can do in this demo(most should be obvious):
 =====================================
--- From the main screen(Page0) go to SETUP>ABOUT>DEBUG to enter random text to send to ESP32. watch it come across in 'make monitor' or Putty on the your comport
--- Run 'make monitor' to see the received data from Nextion-reference Nextion Help for return codes and formats.
--- Set Screen timeout in minutes and watch what codes are returned to 'make monitor' when the Nextion goes to sleep(0x86,0xff,0xff) and wakes(0x87,0xff,0xff) up
--- You can reset the Nextion display and the ESp32 from the SETUP screen. Note the beavior and this would need to be coordinated in a serious project.
+-- From the main screen(Page0) go to SETUP>ABOUT>DEBUG to enter random text to send to ESP32. watch it come across in 'make monitor' or Putty on the your comport  
+-- Run 'make monitor' to see the received data from Nextion-reference Nextion Help for return codes and formats.  
+-- Set Screen timeout in minutes and watch what codes are returned to 'make monitor' when the Nextion goes to sleep(0x86,0xff,0xff) and wakes(0x87,0xff,0xff) up  
+-- You can reset the Nextion display and the ESp32 from the SETUP screen. Note the beavior and this would need to be coordinated in a serious project.  
 
 
 TO_DO:
 ======
--- ummmmm... a whole bunch. Like creating proper structures for all the possible Nextion commands and return values in the header file.
--- accomodate the Enhanced Nextion displays
+-- ummmmm... a whole bunch. Like creating proper structures for all the possible Nextion commands and return values in the header file.  
+-- accomodate the Enhanced Nextion displays  
 
 
 
