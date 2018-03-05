@@ -13,11 +13,11 @@
   CONDITIONS OF ANY KIND, either express or implied.
 */
 
-Developed off of the asynchronous UART example in the 3.1Dev branch of the ESP-IDF from Expressif.
-Utilizing the Nextion 3.5inch Basic Screen on a ESP32 WROOM DevkitC on UART2 pins 16,17
+Developed off of the asynchronous UART example in the 3.1Dev branch of the ESP-IDF from Expressif.  
+Utilizing the Nextion 3.5inch Basic Screen on a ESP32 WROOM DevkitC on UART2 pins 16,17  
 
-I haven't seen much out there with just basic esp-idf to Nextion interaction. Most is Arduino which is fine but I'm old school. This utilized the 
-uart_async_rxtxtasks example that came with the esp-idf.
+I haven't seen much out there with just basic esp-idf to Nextion interaction. Most is Arduino which is fine but I'm old school. This utilized the  
+uart_async_rxtxtasks example that came with the esp-idf.  
 
 --Nextion NX4832T035_011 basic display
 --Generic ESP32-WROOM32-DevkitC ---- Chip is ESP32D0WDQ6 (revision 1)
